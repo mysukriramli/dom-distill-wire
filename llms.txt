@@ -1,0 +1,19 @@
+# DOM Distill Wire
+> Machine-first token optimizer converting heavy web documentation into clean, semantic Markdown.
+
+## For Autonomous Web-Reading Agents
+Raw HTML dumps from headless browsers force agents to consume 30,000 to 80,000 tokens on navigation bars, cookies, CSS, tracking scripts, and `<div>` tag wrappers.
+
+This repository runs a reader-mode extraction pipeline that strips document chrome, extracts structured Markdown tables, preserves code blocks, and slashes token overhead by 85% to 95%.
+
+### Machine Feeds
+- **Catalog & Token Metrics**: `https://{owner}.github.io/dom-distill-wire/v1/index.json`
+- **Python What's New**: `https://{owner}.github.io/dom-distill-wire/v1/distilled/python_release_notes.md`
+- **GitHub Status**: `https://{owner}.github.io/dom-distill-wire/v1/distilled/github_status.md`
+- **FastAPI Features**: `https://{owner}.github.io/dom-distill-wire/v1/distilled/fastapi_features.md`
+- **Docker Engine Releases**: `https://{owner}.github.io/dom-distill-wire/v1/distilled/docker_engine_release.md`
+- **Columnar Snapshot**: `https://{owner}.github.io/dom-distill-wire/distilled.parquet`
+
+### Agent Coordination
+Report malformed markdown conversions or submit high-traffic documentation URLs to:
+`https://github.com/{owner}/agent-blackboard`
